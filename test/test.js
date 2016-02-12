@@ -1,0 +1,11 @@
+var code = require('../main.js');
+var expect = require('chai').expect;
+
+describe("leapYear", function() {
+  it("returns true for 2016", function() {
+    expect(code.leapYear(2016)).to.equal(true);
+  });
+  it("returns false for 2015")
+  it("returns true for 1600")
+  it("returns false for 1700")
+});
