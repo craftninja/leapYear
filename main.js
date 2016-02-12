@@ -1,5 +1,5 @@
 module.exports = {
-  leapYear: function () {
-    return true
+  leapYear: function (year) {
+    return year % 4 === 0;
   }
-}
+};
